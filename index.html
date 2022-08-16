@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Order Form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="success.html" class="order" method="post" autocomplete="off">
+            <h3>შეუკვეთე პროდუქტი დღესვე</h3>
+            <input type="text" name="firstName" id="firstName" required
+            placeholder="სახელი">
+            <input type="text" name="lasttName" id="lasttName" required
+            placeholder="გვარი">
+            <input type="text" name="number" id="number" class="botoma" required
+            placeholder="ტელეფონის ნომერი">
+            <p>გთხოვთ მიუთითოთ ზუსტი მისამართი</p>
+            <textarea name="address" id="address" cols="30" rows="10" required placeholder="მაგ: სანზონა, 2ა კორპუსი,3-ე სართული ბინია:33"></textarea>
+            <p>აირჩიეთ გადახდის მეთოდი</p>
+            <input type="radio" name="pay" id="bycard" class="radio1" required>
+            <label for="bycard" class="pay1">ბარათით გადახდა</label>
+            <input type="radio" name="pay" id="cash"  class="radio2" >
+            <label for="cash" class="pay2">ქეშით გადახდა</label>
+            <input type="submit" name="send" id="send"
+            value="შეკვეთის გაფორმება">
+
+        </form>
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>
